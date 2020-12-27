@@ -14,5 +14,9 @@ Grab some awesome OLED wallpapers made specifically for Mirage: [Wallpapers](htt
 
 ### Follow Me!
 [Twitter](https://twitter.com/EthanWhited) - follow me for more up to date info, or ask me anything.
+
 [Reddit](https://www.reddit.com/user/Nahtedetihw) - reach out if you have any questions.
+
 [Email](mailto:ethanwhited2208@gmail.com) - open to any questions or concerns.
+
+[**Repo**](https://nahtedetihw.github.io/repo/) - Repo containing Mirage.
