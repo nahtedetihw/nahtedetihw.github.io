@@ -157,7 +157,7 @@ h3 {
 
 .subtle_link, .subtle_link > div > div, .subtle_link > div > div > p {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .subtle_link:hover, .subtle_link > *:hover {
@@ -165,11 +165,11 @@ h3 {
 }
 
 .green {
-    color: #00b90c;
+    color: #71AF75;
 }
 
 .red {
-    color: #ba0000;
+    color: #ff4444;
 }
 
 .banner_underlay {
