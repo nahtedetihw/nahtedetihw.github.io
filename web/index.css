@@ -9,10 +9,6 @@
 
 }
 
-img {
-  border-radius: 50%;
-}
-
 @media only screen and (max-width: 600px) {
     .body {
         margin-left: 20px;
@@ -56,7 +52,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .scroll_view > .card {
-    background-color: #000;
+    background-color: #ccc;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,7 +67,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .scroll_view > .img_card {
-    background-color: #fff;
+    background-color: #ccc;
     width: 250px;
     margin: 5px;
     border-radius: 10px;
@@ -165,11 +161,11 @@ h3 {
 }
 
 .green {
-    color: #71AF75;
+    color: #00b90c;
 }
 
 .red {
-    color: #ff4444;
+    color: #ba0000;
 }
 
 .banner_underlay {
@@ -225,7 +221,7 @@ a {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background: #000;
+        background: #161616;
         color: white;
     }
 
