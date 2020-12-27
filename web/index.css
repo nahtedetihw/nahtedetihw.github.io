@@ -9,6 +9,10 @@
 
 }
 
+img {
+  border-radius: 50%;
+}
+
 @media only screen and (max-width: 600px) {
     .body {
         margin-left: 20px;
