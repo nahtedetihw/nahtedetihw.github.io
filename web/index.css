@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .scroll_view > .card {
-    background-color: #ccc;
+    background-color: #000;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .scroll_view > .img_card {
-    background-color: #ccc;
+    background-color: #000;
     width: 250px;
     margin: 5px;
     border-radius: 10px;
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .card > p {
-    color: white;
+    color: black;
     bottom: 15px;
     left: 15px;
     font-size: 25px;
@@ -225,7 +225,7 @@ a {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background: #161616;
+        background: #000;
         color: white;
     }
 
