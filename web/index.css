@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .scroll_view > .img_card {
-    background-color: #000;
+    background-color: #fff;
     width: 250px;
     margin: 5px;
     border-radius: 10px;
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .card > p {
-    color: black;
+    color: white;
     bottom: 15px;
     left: 15px;
     font-size: 25px;
@@ -157,7 +157,7 @@ h3 {
 
 .subtle_link, .subtle_link > div > div, .subtle_link > div > div > p {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .subtle_link:hover, .subtle_link > *:hover {
