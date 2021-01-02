@@ -9,7 +9,7 @@
 ** MagicalScrollbars lets you choose 2 different colors which transition to one another making a magical experience for your scrollbars. This works in all apps. **
 
 
-<img src="https://nahtedetihw.github.io/MagicalScrollbars.gif" loop=infinite />
+![Alt Text](https://nahtedetihw.github.io/MagicalScrollbars.gif)
 
 
 * Join my Discord today to report any issues: https://discord.gg/64kVRNzKnF
