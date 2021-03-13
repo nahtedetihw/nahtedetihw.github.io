@@ -1,0 +1,13 @@
+# ReachPlayer
+
+## Now Playing info in Reachability Window!
+
+** ReachPlayer adds a sleek interface to your Reachability Window with the now playing song. **
+
+* Join my Discord today to report any issues: https://discord.gg/64kVRNzKnF
+
+### Follow
+
+* [**ETHN**](https://twitter.com/ethanwhited) - follow me for more up to date info, or ask me anything.
+
+* [**Email**](mailto:ethanwhited2208@gmail.com) - open to any questions or concerns.
