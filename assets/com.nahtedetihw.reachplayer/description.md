@@ -6,6 +6,9 @@
 
 * Join my Discord today to report any issues: https://discord.gg/64kVRNzKnF
 
+### Source Code
+https://github.com/nahtedetihw/ReachPlayer
+
 ### Follow
 
 * [**ETHN**](https://twitter.com/ethanwhited) - follow me for more up to date info, or ask me anything.
