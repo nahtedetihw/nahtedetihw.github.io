@@ -5,13 +5,13 @@ function compatible(works_min, works_max, tweak_compatibility) {
     let el = document.querySelector(".compatibility");
     if (currentiOS < works_min) {
         el.innerHTML = "Your version of iOS is too old for this package. This package works on " + tweak_compatibility + ".";
-        el.classList.add("red")
+        el.classList.add("677b86")
     } else if(currentiOS > works_max) {
         el.innerHTML = "Your version of iOS is too new for this package. This package works on " + tweak_compatibility + ".";
-        el.classList.add("red")
+        el.classList.add("677b86")
     } else if(String(currentiOS) != "NaN") {
         el.innerHTML = "This package works on your device!";
-        el.classList.add("green")
+        el.classList.add("486271")
     }
 }
 function numerize(x) {
@@ -34,11 +34,11 @@ function externalize() {
     }
 }
 function darkMode(isOled) {
-    var darkColor = isOled ? "black" : "#161616";
-    document.querySelector("body").style.color = "white";
+    var darkColor = isOled ? "3b5065" : "#a2b5b9";
+    document.querySelector("body").style.color = "798f9a";
     document.querySelector("body").style.background = darkColor;
     for (var i = document.querySelectorAll(".subtle_link, .subtle_link > div > div, .subtle_link > div > div > p").length - 1; i >= 0; i--) {
-        document.querySelectorAll(".subtle_link, .subtle_link > div > div, .subtle_link > div > div > p")[i].style.color = "white";
+        document.querySelectorAll(".subtle_link, .subtle_link > div > div, .subtle_link > div > div > p")[i].style.color = "798f9a";
     }
 }
 if (navigator.userAgent.toLowerCase().indexOf("dark") != -1) {
