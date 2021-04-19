@@ -34,9 +34,9 @@ function externalize() {
     }
 }
 function darkMode(isOled) {
-    var darkColor = isOled ? "3b5065" : "#a2b5b9";
+    var darkColor = isOled ? "000" : "#000";
     document.querySelector("body").style.color = "798f9a";
-    document.querySelector("body").style.background = darkColor;
+    document.querySelector("body").style.background = "000";
     for (var i = document.querySelectorAll(".subtle_link, .subtle_link > div > div, .subtle_link > div > div > p").length - 1; i >= 0; i--) {
         document.querySelectorAll(".subtle_link, .subtle_link > div > div, .subtle_link > div > div > p")[i].style.color = "798f9a";
     }
