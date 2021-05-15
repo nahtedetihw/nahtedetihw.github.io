@@ -1,0 +1,12 @@
+Origin: ETHN's Repo
+Label: ETHN's Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: iOS Tweaks & Themes
+
+SHA256:
+ 4ab6ce5d89e224eda736ece75b0a32c78488fbdb86bd67a32b3f83441423dca9 4023 Packages.bz2
+ 711eb340c848ebb0bdc3930cd1c8218ec3f6198add648d44d55d16972d2dae1c 3976 Packages.xz
