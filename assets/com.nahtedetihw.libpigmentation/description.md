@@ -18,18 +18,8 @@
 1. Add `TWEAKNAME_LIBRARIES = pigmentation` to your makefile
 2. Add `com.nahtedetihw.libpigmentation` to the `Depends` in your `control` file
 
-```objc
-@interface libpigmentation : NSObject
--(NSDictionary *)coloursForImage:(UIImage *)image forEdge:(int)edge;
-- (BOOL)isColorTooDark:(UIColor *)color;
-- (BOOL)isColorTooLight:(UIColor *)color;
-- (UIColor *)lighterColorForColor:(UIColor *)color;
-- (UIColor *)darkerColorForColor:(UIColor *)color;
-@end
-```
-
 ### Source Code
-https://github.com/nahtedetihw/libpigmentation
+* [https://github.com/nahtedetihw/libpigmentation](https://github.com/nahtedetihw/libpigmentation)
 
 ### Follow
 
