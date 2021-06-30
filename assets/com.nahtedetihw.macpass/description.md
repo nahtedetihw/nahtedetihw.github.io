@@ -2,9 +2,11 @@
 
 ## MacOS login screen for iOS!
 
-### MacPass is confirmed to work on iOS 14, but could be compatible with iOS 13 as well but untested.
+### MacPass is confirmed to work on iOS 13 & 14.
 
-* Join my Discord today to report any issues: https://discord.gg/64kVRNzKnF
+### This does not provide a passcode for checkra1n devices with SEP disabled.
+
+### Join my Discord today to report any issues: https://discord.gg/64kVRNzKnF
 
 ### Source Code
 https://github.com/nahtedetihw/MacPass
