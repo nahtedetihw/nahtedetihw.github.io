@@ -1,12 +1,12 @@
-Origin: ETHN's Repo
-Label: ETHN's Repo
+Origin: nahtedetihw.github.io
+Label: nahtedetihw.github.io
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: iOS Tweaks & Themes
+Description: Tweaks/Themes
 
 SHA256:
- 1e15268f4c3b44565f41695c1dd07727d0346f2c557f6e93ea05434abc894fea 4440 Packages.bz2
- 9d9372b626204e5daefbd6a3c432a1f6646965bb58d8a16d7599e9b296eabdeb 4456 Packages.xz
+ 9600796c381daf027ed90357fbefd3af2c27fdd5a9d6c38b3768340b0ddc39de 4436 Packages.bz2
+ 23ce504926db6bc1a0ac5b9d9a590204f9da28f41dcb87bac903251f9f61698c 4432 Packages.xz

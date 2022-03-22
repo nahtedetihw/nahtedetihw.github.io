@@ -2,7 +2,7 @@
 
 ## Make your Passcode pop up right away.
 
-### NoButtonsWhenPlaying was only tested to work on iOS 13 & 14.
+### UnlockOrElse was only tested to work on iOS 13 & 14.
 
 
 ** Do you ever find yourself annoyed because you always have to wear a mask now and the Passcode just doesn't pop up when you need it to? UnlockOrElse will immediately bring up the passcode screen when your screen turns on. This was a tweak request on my Discord channel, if you aren't a part of that, here is the link: [https://discord.gg/64kVRNzKnF](https://discord.gg/64kVRNzKnF) **
