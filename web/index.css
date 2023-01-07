@@ -14,7 +14,7 @@
 }
 
 .card {
-  width: 128px;
+  width: 72px;
   height: 72px;
   border-radius: 15px;
   margin-top: 10px;
@@ -37,7 +37,7 @@
 }
 .card:hover .info {
   opacity: 1;
-  transform: translateY(10px);
+  transform: translateY(5px);
 }
 .card:before {
   content: "";
@@ -64,28 +64,31 @@
   border-radius: 10px;
 }
 .card .info {
-  position: relative;
+    margin: -10px;
+  position: absolute;
   z-index: 3;
   color: white;
+  font-weight: bold;
   opacity: 0;
-  transform: translateY(10px);
-  transition: 0.5s;
   text-align: center;
 }
 .card .info h1 {
-  margin: 0px;
+  margin: -20px;
   text-align: center;
 }
 .card .info p {
+    margin: -10px;
   letter-spacing: 1px;
   font-size: 10px;
-  margin-top: 8px;
   text-align: center;
+  font-weight: bold;
+  inline-size: 72px;
+  overflow-wrap: break-word;
 }
 .card .info button {
-  height: 30px;
-  width: 50px;
-  padding: 0.6rem;
+  height: 72px;
+  width: 72px;
+  padding: 0;
   outline: none;
   border: none;
   border-radius: 3px;
@@ -135,6 +138,8 @@ h1, h2, h3, h4, h5, h6, p {
 .caption {
   color: #bbb;
   font-size: 16px;
+  inline-size: 72px;
+  overflow-wrap: break-word;
 }
 
 .header {
@@ -391,7 +396,7 @@ a.pkg-button.cydia {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background: #000;
+    background: #111;
     color: white;
   }
 
@@ -402,4 +407,11 @@ a.pkg-button.cydia {
   #pkgSelect {
     color: #FFFFFF !important;
   }
+}
+
+.caption_center_footer {
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+  text-align: center;
 }
