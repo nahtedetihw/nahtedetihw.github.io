@@ -3,10 +3,10 @@ Label: ETHN's Repo
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64
+Architectures: iphoneos-arm
 Components: main
 Description: iOS Tweaks/Themes
 
 SHA256:
- 4eaa4a1f85ec7f8a267173781689d1daed62d68bba984bb55c7549f50b736fc6 4943 Packages.bz2
- 9e8491441726aca56bd44bf8c76a1abc736500739e09c87ea4efa01356aadb6d 5020 Packages.xz
+ 50bef1a79d300f56c230a3da4f911f398e8de43616f1968acaa81c7d542129aa 4923 Packages.bz2
+ cf11e1019fe4ddd9528b9494cbf2be8dcccd073657fa01cece2b3d253258f8d2 5012 Packages.xz
