@@ -107,6 +107,13 @@
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", sans-serif;
   margin-top: 20px;
   margin-bottom: 20px;
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
 }
 
 @media only screen and (max-width: 600px) {
