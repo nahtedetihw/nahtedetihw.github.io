@@ -7,13 +7,13 @@
     <link rel="stylesheet" type="text/css" href="../../web/index.css">
     <style>a, .tint, .table-btn:after {color: #cccccc} .active {color: #cccccc;border-bottom: 2px solid #cccccc;}</style>
     <script src="../../web/index.js"></script>
-    <meta name="description" content="A package by ETHN for iOS 13.0 to 16.2.">
+    <meta name="description" content="A package by ETHN for iOS 13.0 to 16.7.7.">
     <meta property="og:title" content="SettingsButtons">
-    <meta property="og:description" content="A package by ETHN for iOS 13.0 to 16.2.">
+    <meta property="og:description" content="A package by ETHN for iOS 13.0 to 16.7.7.">
     <meta property="og:image" content="../../assets/com.nahtedetihw.settingsbuttons/banner.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SettingsButtons">
-    <meta name="twitter:description" content="A package by ETHN for iOS 13.0 to 16.2.">
+    <meta name="twitter:description" content="A package by ETHN for iOS 13.0 to 16.7.7.">
     <meta name="twitter:image" content="https://nahtedetihw.github.io/assets/com.nahtedetihw.settingsbuttons/banner.png">
     <meta name="theme-color" content="#cccccc">
 </head>
@@ -32,7 +32,7 @@
             <div class="nav_btn changelog_btn" onclick="swap('.tweak_info','.changelog');">Changelog</div>
         </div>
         <div class="tweak_info">
-            <p class="compatibility"><b>Compatibility:</b> This package is compatible with iOS iOS 13.0 to 16.2.</p>
+            <p class="compatibility"><b>Compatibility:</b> This package is compatible with iOS iOS 13.0 to 16.7.7.</p>
             <div class="scroll_view"><img class="img_card" src="../../assets/com.nahtedetihw.settingsbuttons/screenshot/01.PNG"><img class="img_card" src="../../assets/com.nahtedetihw.settingsbuttons/screenshot/02.PNG"><img class="img_card" src="../../assets/com.nahtedetihw.settingsbuttons/screenshot/03.PNG"><img class="img_card" src="../../assets/com.nahtedetihw.settingsbuttons/screenshot/04.PNG"></div>
             <div class="md_view">
                 <p><h1>SettingsButtons</h1>
@@ -41,7 +41,9 @@
 <p>** SettingsButtons gives a useful way of toggling dark mode, safe mode, or respring straight from settings, with a very clean look **</p>
 <h3>Custom themes</h3>
 <p>All of the icons are in <code>/Library/Application Support/SettingsButtons</code></p>
+<p>or on rootless <code>/var/jb/Library/Application Support/SettingsButtons</code></p>
 <p>Themers can place their icons in <code>/Library/Themes/YOURTHEME.theme/Folders/SettingsButtons</code></p>
+<p>or on rootless <code>/var/jb/Library/Themes/YOURTHEME.theme/Folders/SettingsButtons</code></p>
 <p><code>darkmode@2x.png</code> - 60x60
 <code>darkmode@3x.png</code> - 90x90
 <code>lightmode@2x.png</code> - 60x60
@@ -62,8 +64,6 @@
 <h3>Dependencies</h3>
 <ul>
 <li>libsparkcolourpicker</li>
-<li>Cephei</li>
-<li>ldrestarthelper</li>
 </ul>
 <h3>Source Code</h3>
 <p>https://github.com/nahtedetihw/SettingsButtons</p>
@@ -82,12 +82,12 @@
                 </div>
                 <div class="cell">
                     <div class="title">Version</div>
-                    <div class="text">1.6</div>
+                    <div class="text">1.7</div>
                     <br><br>
                 </div>
                 <div class="cell">
                     <div class="title">Compatibility</div>
-                    <div class="text">iOS 13.0 to 16.2</div>
+                    <div class="text">iOS 13.0 to 16.7.7</div>
                     <br><br>
                 </div>
                 <div class="cell">
@@ -99,6 +99,14 @@
         </div>
         <div class="changelog">
             <div class="changelog_entry">
+                <h4>1.7</h4>
+                <div class="md_view"><p>Added iOS 16 support, Added rootless support, Removed Cephei and ldrestarthelper as a dependency</p>
+</div>
+            </div><div class="changelog_entry">
+                <h4>1.7</h4>
+                <div class="md_view"><p>Added iOS 16 support, Added rootless support, Removed Cephei and ldrestarthelper as a dependency</p>
+</div>
+            </div><div class="changelog_entry">
                 <h4>1.6</h4>
                 <div class="md_view"><ul>
 <li>Added custom images</li>
@@ -129,5 +137,5 @@
         </div>
     </div>
 </body>
-<script>compatible("13.0","16.2","iOS 13.0 to 16.2");externalize()</script>
+<script>compatible("13.0","16.7.7","iOS 13.0 to 16.7.7");externalize()</script>
 </html>

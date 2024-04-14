@@ -10,7 +10,11 @@
 
 All of the icons are in `/Library/Application Support/SettingsButtons`
 
+or on rootless `/var/jb/Library/Application Support/SettingsButtons`
+
 Themers can place their icons in `/Library/Themes/YOURTHEME.theme/Folders/SettingsButtons`
+
+or on rootless `/var/jb/Library/Themes/YOURTHEME.theme/Folders/SettingsButtons`
 
 `darkmode@2x.png` - 60x60
 `darkmode@3x.png` - 90x90
@@ -31,8 +35,6 @@ Themers can place their icons in `/Library/Themes/YOURTHEME.theme/Folders/Settin
 
 ### Dependencies
 * libsparkcolourpicker
-* Cephei
-* ldrestarthelper
 
 ### Source Code
 https://github.com/nahtedetihw/SettingsButtons
